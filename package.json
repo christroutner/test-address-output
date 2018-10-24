@@ -1,0 +1,23 @@
+{
+  "name": "test-address-outputs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-address-outputs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test-address-outputs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/test-address-output.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christroutner/test-address-output/issues"
+  },
+  "homepage": "https://github.com/christroutner/test-address-output#readme",
+  "dependencies": {
+    "bitbox-sdk": "^2.0.4"
+  }
+}
