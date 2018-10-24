@@ -14,8 +14,12 @@ util.inspect.defaultOptions = {
 };
 
 const BB = require("bitbox-sdk/lib/bitbox-sdk").default;
+
+// Original code:
 //const BITBOX = new BB({ restURL: `https://rest.bitcoin.com/v1/` });
-const BITBOX = new BB({ restURL: `http://localhost:3000/v1/` })
+
+// Excercising the buggy code:
+const BITBOX = new BB({ restURL: `http://localhost:3000/v2/` })
 
 
 async function runTest() {

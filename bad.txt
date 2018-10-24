@@ -6,6 +6,7 @@ TESTING /ADDRESS/DETAILS
 Single address in an array:
 details: [
   {
+    "addrStr": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
     "balance": 0.00068391,
     "balanceSat": 68391,
     "totalReceived": 0.07350975,
@@ -40,42 +41,46 @@ details: [
 ]
  
 Single address without an array:
-details: {
-  "balance": 0.00068391,
-  "balanceSat": 68391,
-  "totalReceived": 0.07350975,
-  "totalReceivedSat": 7350975,
-  "totalSent": 0.07282584,
-  "totalSentSat": 7282584,
-  "unconfirmedBalance": 0,
-  "unconfirmedBalanceSat": 0,
-  "unconfirmedTxApperances": 0,
-  "txApperances": 16,
-  "transactions": [
-    "a0e1a66502a526587324654821f7dc4e01326a74f3ed7050d3c4eebce03b1e55",
-    "1c910124ce358cf6310b512555324820dbc31cb5d43dfe5516102e7991ad4d17",
-    "51f11a9af52bc8eaea51450f09f1f5c2ffd4b9df6defd293373f6d50ff2a2ec1",
-    "1d81c6d8a8a250abab5f538c5dff9cc7dabaf62ab790a7d5993de133b3fbd73d",
-    "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
-    "0b1f0e297e999d4ac1006d799c4c0d10c9764bbc70222c7b4126d0f08cfa2ccd",
-    "21dd85b0fc55ac337b59549dd89b32e7031bfdfff807a1f9bb31c5e742568634",
-    "bf9c939ef291793a5de7e8986a405d97452f27b5c5e55f9fef87a020b1cf7cbb",
-    "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
-    "724cf1d525ffcfdf702cd3ff8953e9b4fa7f893d31aefe5799e05bce91833947",
-    "755143e27b2754f8499f25cf802c819f7970be0d76b5de20daa4a89997a3cddd",
-    "983d9974348acb531463e2ad2eeb2124b80d22ef1aef3da0e9cbe65429e60ac5",
-    "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
-    "a425bd566656340f63dd02fa0a0fc37b1437cf2175f7d0cef9c8c7d1b3190e49",
-    "de90fa91f02ee7fa93d2c20dc1c96f882501149df52eab87645910ccc324eaf3",
-    "eb36f8f3335dcb07703436412d6cb9453eaade5678cad9bc458117997127ea99"
-  ],
-  "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-  "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-}
+details: [
+  {
+    "addrStr": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+    "balance": 0.00068391,
+    "balanceSat": 68391,
+    "totalReceived": 0.07350975,
+    "totalReceivedSat": 7350975,
+    "totalSent": 0.07282584,
+    "totalSentSat": 7282584,
+    "unconfirmedBalance": 0,
+    "unconfirmedBalanceSat": 0,
+    "unconfirmedTxApperances": 0,
+    "txApperances": 16,
+    "transactions": [
+      "a0e1a66502a526587324654821f7dc4e01326a74f3ed7050d3c4eebce03b1e55",
+      "1c910124ce358cf6310b512555324820dbc31cb5d43dfe5516102e7991ad4d17",
+      "51f11a9af52bc8eaea51450f09f1f5c2ffd4b9df6defd293373f6d50ff2a2ec1",
+      "1d81c6d8a8a250abab5f538c5dff9cc7dabaf62ab790a7d5993de133b3fbd73d",
+      "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
+      "0b1f0e297e999d4ac1006d799c4c0d10c9764bbc70222c7b4126d0f08cfa2ccd",
+      "21dd85b0fc55ac337b59549dd89b32e7031bfdfff807a1f9bb31c5e742568634",
+      "bf9c939ef291793a5de7e8986a405d97452f27b5c5e55f9fef87a020b1cf7cbb",
+      "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
+      "724cf1d525ffcfdf702cd3ff8953e9b4fa7f893d31aefe5799e05bce91833947",
+      "755143e27b2754f8499f25cf802c819f7970be0d76b5de20daa4a89997a3cddd",
+      "983d9974348acb531463e2ad2eeb2124b80d22ef1aef3da0e9cbe65429e60ac5",
+      "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
+      "a425bd566656340f63dd02fa0a0fc37b1437cf2175f7d0cef9c8c7d1b3190e49",
+      "de90fa91f02ee7fa93d2c20dc1c96f882501149df52eab87645910ccc324eaf3",
+      "eb36f8f3335dcb07703436412d6cb9453eaade5678cad9bc458117997127ea99"
+    ],
+    "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+    "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
+  }
+]
  
 Array of addresses:
 details: [
   {
+    "addrStr": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
     "balance": 0.00068391,
     "balanceSat": 68391,
     "totalReceived": 0.07350975,
@@ -108,6 +113,7 @@ details: [
     "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
   },
   {
+    "addrStr": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
     "balance": 0.00021138,
     "balanceSat": 21138,
     "totalReceived": 0.00041138,
@@ -136,291 +142,268 @@ Single address in an array:
 utxo: [
   [
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550912,
-      "confirmations": 2689,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2689
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550878,
-      "confirmations": 2723,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2723
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
       "vout": 0,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00018954,
       "satoshis": 18954,
       "height": 550878,
-      "confirmations": 2723,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2723
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550759,
-      "confirmations": 2842,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2842
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550749,
-      "confirmations": 2852,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2852
     }
   ]
 ]
  
 Single address without an array:
 utxo: [
-  {
-    "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
-    "vout": 2,
-    "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
-    "amount": 0.00000546,
-    "satoshis": 546,
-    "height": 550912,
-    "confirmations": 2689,
-    "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-    "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
-  },
-  {
-    "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
-    "vout": 2,
-    "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
-    "amount": 0.00000546,
-    "satoshis": 546,
-    "height": 550878,
-    "confirmations": 2723,
-    "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-    "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
-  },
-  {
-    "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
-    "vout": 0,
-    "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
-    "amount": 0.00018954,
-    "satoshis": 18954,
-    "height": 550878,
-    "confirmations": 2723,
-    "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-    "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
-  },
-  {
-    "txid": "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
-    "vout": 2,
-    "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
-    "amount": 0.00000546,
-    "satoshis": 546,
-    "height": 550759,
-    "confirmations": 2842,
-    "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-    "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
-  },
-  {
-    "txid": "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
-    "vout": 2,
-    "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
-    "amount": 0.00000546,
-    "satoshis": 546,
-    "height": 550749,
-    "confirmations": 2852,
-    "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-    "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
-  }
-]
- 
-Array of addresses:
-utxo: [
   [
     {
-      "txid": "51f11a9af52bc8eaea51450f09f1f5c2ffd4b9df6defd293373f6d50ff2a2ec1",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 553161,
-      "confirmations": 440,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "1d81c6d8a8a250abab5f538c5dff9cc7dabaf62ab790a7d5993de133b3fbd73d",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 551397,
-      "confirmations": 2204,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
-      "vout": 0,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00063477,
-      "satoshis": 63477,
-      "height": 550912,
-      "confirmations": 2689,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "0b1f0e297e999d4ac1006d799c4c0d10c9764bbc70222c7b4126d0f08cfa2ccd",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550886,
-      "confirmations": 2715,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "21dd85b0fc55ac337b59549dd89b32e7031bfdfff807a1f9bb31c5e742568634",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550880,
-      "confirmations": 2721,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "724cf1d525ffcfdf702cd3ff8953e9b4fa7f893d31aefe5799e05bce91833947",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550753,
-      "confirmations": 2848,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "755143e27b2754f8499f25cf802c819f7970be0d76b5de20daa4a89997a3cddd",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550750,
-      "confirmations": 2851,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "983d9974348acb531463e2ad2eeb2124b80d22ef1aef3da0e9cbe65429e60ac5",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550749,
-      "confirmations": 2852,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "a425bd566656340f63dd02fa0a0fc37b1437cf2175f7d0cef9c8c7d1b3190e49",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550741,
-      "confirmations": 2860,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    },
-    {
-      "txid": "eb36f8f3335dcb07703436412d6cb9453eaade5678cad9bc458117997127ea99",
-      "vout": 2,
-      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
-      "amount": 0.00000546,
-      "satoshis": 546,
-      "height": 550479,
-      "confirmations": 3122,
-      "legacyAddress": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
-      "cashAddress": "bitcoincash:qpew7vm9sdwdfeu3ag63rkt0r6ary3e2ny5p8lsfpn"
-    }
-  ],
-  [
-    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550912,
-      "confirmations": 2689,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2689
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550878,
-      "confirmations": 2723,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2723
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
       "vout": 0,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00018954,
       "satoshis": 18954,
       "height": 550878,
-      "confirmations": 2723,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2723
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550759,
-      "confirmations": 2842,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2842
     },
     {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
       "txid": "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
       "vout": 2,
       "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
       "amount": 0.00000546,
       "satoshis": 546,
       "height": 550749,
-      "confirmations": 2852,
-      "legacyAddress": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
-      "cashAddress": "bitcoincash:qq0j0nsc5mfvzhccawgkgv7g3umspezdvupfjg7ze3"
+      "confirmations": 2852
+    }
+  ]
+]
+ 
+Array of addresses:
+utxo: [
+  [
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "51f11a9af52bc8eaea51450f09f1f5c2ffd4b9df6defd293373f6d50ff2a2ec1",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 553161,
+      "confirmations": 440
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "1d81c6d8a8a250abab5f538c5dff9cc7dabaf62ab790a7d5993de133b3fbd73d",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 551397,
+      "confirmations": 2204
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
+      "vout": 0,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00063477,
+      "satoshis": 63477,
+      "height": 550912,
+      "confirmations": 2689
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "0b1f0e297e999d4ac1006d799c4c0d10c9764bbc70222c7b4126d0f08cfa2ccd",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550886,
+      "confirmations": 2715
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "21dd85b0fc55ac337b59549dd89b32e7031bfdfff807a1f9bb31c5e742568634",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550880,
+      "confirmations": 2721
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "724cf1d525ffcfdf702cd3ff8953e9b4fa7f893d31aefe5799e05bce91833947",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550753,
+      "confirmations": 2848
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "755143e27b2754f8499f25cf802c819f7970be0d76b5de20daa4a89997a3cddd",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550750,
+      "confirmations": 2851
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "983d9974348acb531463e2ad2eeb2124b80d22ef1aef3da0e9cbe65429e60ac5",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550749,
+      "confirmations": 2852
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "a425bd566656340f63dd02fa0a0fc37b1437cf2175f7d0cef9c8c7d1b3190e49",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550741,
+      "confirmations": 2860
+    },
+    {
+      "address": "1BUiaq72GymQ6sjKnaYPWPvmrVFib5xDzG",
+      "txid": "eb36f8f3335dcb07703436412d6cb9453eaade5678cad9bc458117997127ea99",
+      "vout": 2,
+      "scriptPubKey": "76a91472ef3365835cd4e791ea3511d96f1eba32472a9988ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550479,
+      "confirmations": 3122
+    }
+  ],
+  [
+    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
+      "txid": "b998b09547d6b26e4ecabfdb4f91440eafb59db3a9269831684380ac09b714c4",
+      "vout": 2,
+      "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550912,
+      "confirmations": 2689
+    },
+    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
+      "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
+      "vout": 2,
+      "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550878,
+      "confirmations": 2723
+    },
+    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
+      "txid": "bbda45af0ba57e28866995c67a53c225336fddd14eb3dc87f2f3500fd61c8585",
+      "vout": 0,
+      "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
+      "amount": 0.00018954,
+      "satoshis": 18954,
+      "height": 550878,
+      "confirmations": 2723
+    },
+    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
+      "txid": "a4fc063efe72da63b0961f2af27738b21db54c42a3f9848dd34eac2da95562ad",
+      "vout": 2,
+      "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550759,
+      "confirmations": 2842
+    },
+    {
+      "address": "13qjdem91jZMGVyo8zTeqC1mYb64V6Yoiy",
+      "txid": "e18ba9a4c3b7a259d3f192743891ac1586a842b0a81000d9269e688326825598",
+      "vout": 2,
+      "scriptPubKey": "76a9141f27ce18a6d2c15f18eb916433c88f3700e44d6788ac",
+      "amount": 0.00000546,
+      "satoshis": 546,
+      "height": 550749,
+      "confirmations": 2852
     }
   ]
 ]
